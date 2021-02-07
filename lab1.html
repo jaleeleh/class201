@@ -1,1 +1,50 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       #secondHeading{
+
+            background-color: black;
+            color: cornsilk;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+    </style>
+</head>
+<body>
+    <header ><h1 style="font-family: Georgia, 'Times New Roman', Times, serif; text-align: center; ">course 201</h1>
+    </header>
+    <main>
+        <h1 id="secondHeading">Class 1 Lab</h1>
+        <p style="background: cyan; color:white; font-size:x-large;">what is your name?</p>
+        <p style="background-color: teal; color: white; font-size:x-large;">what is your favourite programing language</p>
+        <p style="background-color: violet; color: white; font-size:x-large;">what is the topic of this lecture?</p>
+        <p style="background-color: blueviolet; color: white; font-size:x-large;">please can you rate the lecture from(1-5)?</p>
+    </main>
+    <footer style="font-family: fantasy;">
+        &copy; 2021 reserved rights.
+    </footer>
+    <script>
+        let userName=prompt('what is your name: ?');
+        console.log(userName);
+        alert('myname is: '+userName);
+        let language=prompt('what is your favourite programing language: ?')
+        console.log(language);
+        alert('myname is: '+userName+'and my favourite language is '+language);
+        let lecture=prompt('what is the topic of this lecture?');
+        console.log(lecture);
+        alert('myname is '+userName+'and my favourite language is '+language+'the topic of this lecture about '+lecture);
+        let rating=prompt('please can you rate the lecture from(1-5)?');
+        console.log(rating);
+        alert('myname is '+userName+'and my favourite language is '+language+'the topic of this lecture about '+lecture+' the ratting of this lecture is :'+rating);
+
+    </script>
+
+
+
+</body>
+</html>
